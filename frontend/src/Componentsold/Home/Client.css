@@ -1,0 +1,16 @@
+.client-logos {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .client-logos img {
+    width: 100px; /* Adjust image width as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust spacing between images */
+    transition: margin-right 1s; /* Slide transition duration */
+  }
+  
+  .client-logos img:last-child {
+    margin-right: 0; /* Remove margin from last image */
+  }
+  

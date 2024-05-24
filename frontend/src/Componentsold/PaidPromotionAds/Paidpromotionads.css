@@ -1,0 +1,160 @@
+.left-content h1 {
+    text-align: start;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    z-index: 1; /* Adjust the z-index as needed */
+}
+
+@media (min-width: 320px) and (max-width: 464px) {
+    .left-content {
+        margin: 3% !important;
+    }
+    
+    .line-service {
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 476px) and (max-width: 565px) {
+    .left-content {
+        margin: 3% !important;
+    }
+}
+
+
+@media (min-width: 565px) and (max-width: 767px) {
+    .left-content {
+        margin: 3%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .left-content {
+        margin: 3%;
+    }
+
+    .line-service {
+        width: 40% !important;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1198px) {
+    .left-content {
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 1199px) and (max-width: 1440px) {
+    .left-content {
+        margin-left: 6%;
+    }
+}
+
+
+.social-header-bg-paid {
+    min-height: 60vh;
+    background-image: url('C:\Users\USER\Pictures\React-django homepage in phoenix website\React_Frontend\sample_project\frontend\src\imagesold\paid_banner_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden; 
+    margin: 0px !important;
+}
+
+
+.second-main {
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add some padding to the container */
+    width: 100%;
+    background-image: none;
+  }
+
+.icons {
+    color: #AE0002;
+}
+
+/* Add this style to adjust the card height */
+.card-service {
+    height: 200px; /* Adjust the height as needed */
+}
+
+.icon {
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+    margin-left: 0px;
+}
+
+.card-service p {
+    font-size: 16px;
+}
+
+/* Add this style to adjust the icon size */
+.icon svg {
+    width: 80px; /* Adjust the width of the SVG icon */
+    height: auto; /* Let the height adjust automatically */
+}
+
+.left-content h4 {
+    text-align: justify;
+}
+
+.line-service {
+    border: 1.5px solid yellow;
+    margin-top: 5px;
+    width: 67%;
+    margin-bottom: 30px;
+}
+
+.li {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4D4D4D;
+    list-style: disc !important;
+}
+
+ul .centered-list {
+    text-align: center;
+}
+
+.centered-list li {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.container {
+    border: none;
+    margin-top: 5%;
+}
+
+/* .image-container-paid {
+    max-width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+} */
+
+.image-container-paid {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+
+.card-service {
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.container-paid {
+    margin-top: 4%;
+}

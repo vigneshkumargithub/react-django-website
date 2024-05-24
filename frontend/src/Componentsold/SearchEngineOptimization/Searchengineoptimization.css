@@ -1,0 +1,600 @@
+/* CSS to position the rocket image within belowsecondcontent */
+.belowsecondcontent {
+    position: relative; /* Ensure the container is positioned */
+}
+
+/* Adjust the z-index to ensure the rocket image is above the content */
+.belowsecondcontent {
+    z-index: 1; /* Increase the z-index to ensure the content is below the rocket image */
+}
+
+
+.firstcontent {
+    margin-bottom: 8%;
+}
+
+.downside-content {
+    position: relative;
+    right: 80px;
+}
+
+.left-content-search h1 {
+    text-align: start;
+}
+
+.paragraph {
+    margin-top: 25px;
+}
+
+.paragraph h3 {
+    color: #FF0000;
+    font-size: 24px;
+}
+
+.second-below-para {
+    margin-right: 20%;
+}
+
+.second-below-para h3 {
+    color: white;
+}
+
+.galaxy {
+    margin-left: 20%;
+}
+
+.galaxy img {
+    position: relative;
+    bottom: 10px;
+}
+
+.link-building {
+    margin-bottom: 2%;
+}
+
+.belowsecondcontent h3 {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.text-image-search {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-top: 40px;
+}
+
+.container {
+    flex-direction: row;
+    border: 2px solid rgb(236, 234, 234); /* Increase border width for thicker edges */
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom: 5%;
+    /* box-shadow: 2px 2px 10px 2px #908f8f; */
+    background-color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+.container-upside {
+    flex-direction: row;
+    border: 2px solid rgb(236, 234, 234); /* Increase border width for thicker edges */
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom: 5%;
+    /* box-shadow: 2px 2px 10px 2px #908f8f; */
+    background-color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+.container-downside {
+    flex-direction: row;
+    border: 2px solid rgb(236, 234, 234); /* Increase border width for thicker edges */
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom: 1%;
+    /* box-shadow: 2px 2px 10px 2px #908f8f; */
+    background-color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+.container-second {
+    flex-direction: row;
+    border: 2px solid rgb(236, 234, 234); /* Increase border width for thicker edges */
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 5%;
+    background-color: #FFFFFF;
+    font-size: 18px;
+}
+
+.below-content {
+    background-color: #910406;
+    margin-bottom: 15%;
+    max-height: 920px;
+}
+
+.container-second1 {
+    flex-direction: row;
+    border: 2px solid rgb(236, 234, 234); /* Increase border width for thicker edges */
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 5%;
+    background-color: #FFFFFF;
+    font-size: 18px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.rocket img {
+    position: relative;
+    bottom: 100px;
+}
+
+.belowfirstcontent h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.belowsecondcontent {
+    margin-left: 10%;
+}
+
+.belowfirstcontent {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.container-first {
+    flex-direction: row;
+    border: 2px solid rgb(236, 234, 234); /* Increase border width for thicker edges */
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 5%;
+    /* box-shadow: 2px 2px 10px 2px #908f8f; */
+    background-color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 3%;
+    width: 90%;
+}
+
+.belowsecondcontent h3 {
+    color: white;
+    font-size: 26px;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+/* .image img {
+    max-width: 100%;
+    height: auto;
+} */
+
+.content {
+    flex: 1;
+    padding-left: 20px; /* Adjust spacing between image and content */
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+    color: #AE0002;
+}
+
+p {
+    font-size: 22px;
+    color: #525252;
+}
+
+
+.second-paragraph {
+    font-size: 24px;
+    text-align: justify;
+    font-weight: 400;
+    color: #454444;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+.left-content-search {
+    margin-left: 15%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    z-index: 1; /* Adjust the z-index as needed */
+}
+
+.social-header-bg-paid {
+    min-height: 60vh;
+    background-image:  url('C:\Users\USER\Pictures\React-django homepage in phoenix website\React_Frontend\sample_project\frontend\src\imagesold\seo_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden; 
+    margin: 0px !important;
+}
+
+
+.second-main {
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add some padding to the container */
+    width: 100%;
+    background-image: none;
+  }
+
+.icons {
+    color: #AE0002;
+}
+
+/* Add this style to adjust the card height */
+.card-service {
+    height: 200px; /* Adjust the height as needed */
+}
+
+.icon {
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+    margin-left: 0px;
+}
+
+.card-service p {
+    font-size: 16px;
+}
+
+/* Add this style to adjust the icon size */
+.icon svg {
+    width: 80px; /* Adjust the width of the SVG icon */
+    height: auto; /* Let the height adjust automatically */
+}
+
+.left-content-search h4 {
+    text-align: justify;
+}
+
+.line-service {
+    border: 1.5px solid yellow;
+    margin-top: 5px;
+    width: 67%;
+    margin-bottom: 30px;
+}
+
+.li {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4D4D4D;
+    list-style: disc !important;
+}
+
+ul .centered-list {
+    text-align: center;
+}
+
+.centered-list li {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+
+.image-container-paid {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+
+.card-service {
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.container-paid {
+    margin-top: 4%;
+}
+
+@media (min-width: 320px) and (max-width: 464px) {
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+        margin-bottom: 5%;
+    }
+
+    .second-paragraph {
+        font-size: 18px !important;
+        text-align: justify;
+        margin-top: 5% !important;
+    }
+
+    .text-image-service {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .text-image-service img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+        margin-left: 15%;
+    }
+    
+}
+
+@media (min-width: 476px) and (max-width: 565px) {
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-content-search {
+        margin: 3%;
+    }
+
+    .text-image-search img {
+        height: 500px;
+        width: 450px;
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    .line-service {
+        margin-left: 0px;
+    }
+    
+    .image img {
+       height: 400px;
+       width: 450px;
+    }
+
+    .second-paragraph {
+        font-size: 18px ;
+        text-align: justify;
+        margin-top: 5% ;
+    }
+
+    .text-image-service {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .text-image-service img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+        margin-left: 20%;
+        margin-top: 0px;
+    }
+
+    .rocket {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .rocket img {
+        height: 450px;
+        width: 300px;
+    }
+
+    .image-screw {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .belowsecondcontent {
+        margin-left: 4%;
+    }
+
+    .container-second {
+        margin-right: 4%;
+    }
+
+    .image-lens {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .image-tick {
+        margin-top: 10px;
+    }
+
+    .image-tick {
+        margin-bottom: 20px;
+    }
+    
+    .image img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+    }
+
+    .belowsecondcontent {
+        margin-left: 2%;
+    }
+
+    .downside-content {
+        position: relative;
+        right: 0px;
+        margin-left: 4%;
+    }
+
+    .upside-content {
+        margin-left: 4%;
+    }
+
+.text-image-search {
+        display: flex;
+        justify-content: center;
+        text-align: end;
+        margin-top: 0px;
+    }
+    
+    .galaxy {
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+
+    .galaxy img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .below-content {
+        background-color: #910406;
+        margin-bottom: 15%;
+        max-height: 3000px;
+    }
+
+    .rocket img {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .second-below-para {
+        margin-right: 3% ;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+}
+
+
+@media (min-width: 566px) and (max-width: 767px) {
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+        margin-bottom: 5%;
+    }
+
+    .second-paragraph {
+        font-size: 18px;
+        text-align: justify;
+        margin-top: 5%;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+}
+
+
+@media (max-width: 990px) {
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .below-content {
+        background-color: #910406;
+        margin-bottom: 15%;
+        max-width: auto;
+    }
+
+    .rocket {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .image-screw {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .belowsecondcontent {
+        margin-left: 4%;
+    }
+
+    .container-second {
+        margin-right: 4%;
+        width: 90%;
+    }
+
+    .image-lens {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .image-tick {
+        margin-top: 10px;
+    }
+
+    .image-tick {
+        margin-bottom: 20px;
+    }
+    
+    .image img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+    }
+
+    .belowsecondcontent {
+        margin-left: 5%;
+        width: 95%;
+    }
+
+    .downside-content {
+        position: relative;
+        right: 0px ;
+        margin-left: 4%;
+    }
+
+    .upside-content {
+        margin-left: 4%;
+    }
+
+    .text-image-search {
+        display: flex;
+        justify-content: center;
+        text-align: end;
+        margin-top: 0px;
+    }
+    
+    .galaxy {
+        text-align: center;
+        margin-left: 0% ;
+        margin-top: 10%;
+    }
+
+    .below-content {
+        background-color: #910406;
+        margin-bottom: 15%;
+        max-height: 3000px ;
+    }
+
+    .rocket img {
+        position: relative;
+        bottom: 0px ;
+    }
+
+    .second-below-para {
+        margin-right: 3% ;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1198px) {
+    
+}
+
+@media (min-width: 1199px) and (max-width: 1440px) {
+    
+}

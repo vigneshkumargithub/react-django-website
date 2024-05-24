@@ -1,0 +1,119 @@
+Navbar.css
+/* Navbar.css */
+/* .submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .digital-link1:hover .submenu,
+  .digital-link2:focus .submenu {
+    display: block;
+  }
+  
+  .menu_list > li {
+    position: relative;
+  } */
+  
+
+
+/* Navbar.css */
+/* Navbar.css */
+.menu_list .submenu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu_list .submenu li {
+  display: block;
+}
+
+.menu_list .digital-link:hover + .submenu {
+  display: block;
+}
+
+.menu_list .digital-link:hover {
+  color: #000; /* Change the color of the link on hover if needed */
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+
+.sidebar-options {
+    margin: 10px;
+    width: 0;
+    font-size: 24px !important;
+    font-weight: 500;
+}
+
+.sidebar-mobile li {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sidebar-mobile {
+    position: fixed;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    text-align: center;
+}
+
+.sidebar-mobile {
+    position: fixed;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    transition: width 2s;
+    background-color: rgb(238, 236, 236);
+    text-align: -webkit-center;
+}
+
+.mobile-navbar-image {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 90px;
+    top: 15px;
+    position: relative;
+}
+ol, ul {
+    padding-left: 0rem;
+}
+
+@media (min-width: 991px) {
+    
+    .sidebar-mobile {
+        position: relative;
+        left: -300px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .sidebar-mobile ul{
+        margin: 15px;
+    }
+
+    .sidebar-mobile {
+        width: 350px;
+    }
+
+}
+
+

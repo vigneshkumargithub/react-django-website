@@ -1,0 +1,52 @@
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .counter-item {
+    margin: 0 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .counter-number {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .row-blocks {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 30px;
+    /* margin: 33px 0px 25px 0px; */
+    margin: 0px 0px 20px 0px;
+    border-radius: 6px;
+}
+
+.overtheimg {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 30px;
+    /* background: var(--bg-b2); */
+    background: rgb(242, 242, 242);
+    padding: 40px;
+    border-radius: 14px;
+    width: 100%;
+    /* box-shadow: 0 10px 20px -5px rgb(0 0 0 / 10%); */
+    box-shadow: 0 10px 20px 10px rgb(63 63 63 / 10%)
+}
+
+  .counter-label {
+    font-size: 30px;
+    color: #ff2525;
+  }
+  
+
+
+  /* this is only using parent div*/
+  

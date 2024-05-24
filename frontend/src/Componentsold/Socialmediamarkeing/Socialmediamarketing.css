@@ -1,0 +1,426 @@
+
+.social-header-bg {
+    min-height: 70vh;
+    background-image: url('C:\Users\USER\Pictures\React-django homepage in phoenix website\React_Frontend\sample_project\frontend\src\imagesold\socialmediamarketing.jpg');
+    /* background-image: url(imagesold/socialmediamarketing.jpg); */
+    /* background-color: brown; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden; 
+}
+
+.middleimg img {
+    border-radius: 15px;
+}
+.middleimg:hover{
+    transform: scale(1.2);
+    
+}
+
+.down-content p {
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+}
+
+.hover-underline {
+    text-decoration: none; /* Remove default underline */
+    position: relative;
+}
+
+.hover-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust the distance from text to underline */
+    width: 100%;
+    height: 2px;
+    background-color: #000; /* Change color as needed */
+    transition: bottom 0.3s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+.hover-underline:hover::after {
+    bottom: 0;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.down-content h3 {
+    color: #891212;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pagein-content h3 {
+    color: #891212;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pagein-content h3:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 0.3em;
+}
+
+.pagein-content p {
+    font-size: 24px;
+    color: #666F74;
+    text-align: left;
+    align-items: justify;
+}
+
+.down-content p {
+    font-size: 24px;
+    color: #666F74;
+    text-align: left;
+    align-items: justify;
+}
+
+.container-social {
+    max-width: 65%;
+    margin: auto;
+}
+
+.pagein-content {
+    text-align: center;
+}
+
+.headings {
+    font-size: 19px;
+    color: #891212;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.headings:hover {
+    background-color: #891212;
+    color: white;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.letter p {
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 5px;
+    color: #891212;
+    font-size: 20px;
+    font-weight: 700;
+    /* font-weight: 500; */
+    padding: 10px;
+}
+
+
+.line {
+    border: 1.5px solid yellow;
+    margin-top: 5px;
+    width: 42%;
+    margin-bottom: 30px;
+}
+
+.text-contents {
+    margin-top: 8%;
+    margin-left: 2%;
+}
+
+.text-contents p{
+    text-align: justify;
+    font-size: 24px;
+    letter-spacing: 0px;
+    align-items: justify;
+    margin-right: 30%;
+    animation: headercontent 2s ease-in-out;
+  }
+  @keyframes headercontent{
+      0%{
+          opacity: 0;        
+          transform: translatex(50%);
+      }
+  }
+
+.text-contents h3{
+    animation: headercontent 2s ease-in-out;
+    color: white;
+    font-size: 38px;
+  }
+  @keyframes headercontent{
+      0%{
+          opacity: 0;        
+          transform: translatex(50%);
+      }
+  }
+
+
+@media screen and (min-width: 1200px) and (max-width:1300px){
+
+    .digital-header-bg img{
+        min-height: 61vh;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+ 
+    .digital-header-bg img{
+        min-height: 54vh;
+    }
+
+    .text-contents p {
+        text-align: left;
+        font-size: 24px;
+        letter-spacing: 0px;
+        align-items: justify;
+        margin-right: 6%;
+        animation: headercontent 2s ease-in-out;
+      }
+      @keyframes headercontent{
+          0%{
+              opacity: 0;        
+              transform: translatex(50%);
+          }
+      }
+
+      .text-contents h3{
+        animation: headercontent 2s ease-in-out;
+        color: white;
+        font-size: 30px;
+      }
+      @keyframes headercontent{
+          0%{
+              opacity: 0;        
+              transform: translatex(50%);
+          }
+      }
+
+      .line {
+        border: 1.5px solid yellow;
+        margin-top: 5px;
+        width: 35%;
+        margin-bottom: 30px;
+    }
+
+    .container-social {
+        max-width: 86%;
+        margin: auto;
+    }
+
+    .container-social h3 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .container-social p {
+        font-size: 17px;
+    }
+
+.headings p {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .pagein-content p {
+        color: #666F74;
+        font-size: 18px;
+        text-align: justify;
+    }
+}
+
+@media screen and  (min-width: 768px) and (max-width: 991px) {
+
+    .digital-header-bg img{
+        background-size: cover;
+    }
+
+    .digital-header-bg img{
+        min-height: 41vh;
+    }
+
+    .text-contents p {
+        text-align: left;
+        font-size: 24px;
+        letter-spacing: 0px;
+        align-items: justify;
+        /* margin-right: 6%; */
+        animation: headercontent 2s ease-in-out;
+      }
+      @keyframes headercontent{
+          0%{
+              opacity: 0;        
+              transform: translatex(50%);
+          }
+      }
+
+      .text-contents h3{
+        animation: headercontent 2s ease-in-out;
+        color: white;
+        font-size: 30px;
+      }
+      @keyframes headercontent{
+          0%{
+              opacity: 0;        
+              transform: translatex(50%);
+          }
+      }
+
+      .line {
+        border: 1.5px solid yellow;
+        margin-top: 5px;
+        width: 35%;
+        margin-bottom: 30px;
+    }
+
+    .container-social {
+        max-width: 86%;
+        margin: auto;
+    }
+
+    .container-social h3 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .container-social p {
+        font-size: 17px;
+    }
+
+    .headings p {
+        font-size: 20px;
+        font-weight: 600;
+        border: 1px solid #891212;
+        border-radius: 15px;
+    }
+
+    .pagein-content p {
+        color: #666F74;
+        font-size: 18px;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+
+    .digital-header-bg img{
+        background-size: cover;
+    }
+
+
+}
+
+@media (min-width: 425px) and (max-width: 481px){
+
+    .text-contents p {
+        text-align: justify;
+        font-size: 24px;
+        letter-spacing: 0px;
+        align-items: justify;
+        margin-right: 6%;
+        animation: headercontent 2s ease-in-out;
+      }
+      @keyframes headercontent{
+          0%{
+              opacity: 0;        
+              transform: translatex(50%);
+          }
+      }
+
+      .line {
+        border: 1.5px solid yellow;
+        margin-top: 5px;
+        width: 78%;
+        margin-bottom: 30px;
+    }
+
+    .container-social {
+        max-width: 86%;
+        margin: auto;
+    }
+
+    .container-social h3 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .container-social p {
+        font-size: 16px;
+    }
+
+    .headings p {
+        font-size: 20px;
+        font-weight: 600;
+        border: 1px solid #891212;
+        border-radius: 15px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 424px){
+
+    .text-contents p {
+        text-align: left;
+        font-size: 24px;
+        letter-spacing: 0px;
+        align-items: left;
+        margin-right: 6%;
+        animation: headercontent 2s ease-in-out;
+      }
+      @keyframes headercontent{
+          0%{
+              opacity: 0;        
+              transform: translatex(50%);
+          }
+      }
+
+      .text-contents h3{
+        animation: headercontent 2s ease-in-out;
+        color: white;
+        font-size: 30px;
+      }
+      @keyframes headercontent{
+          0%{
+              opacity: 0;        
+              transform: translatex(50%);
+          }
+      }
+
+      .line {
+        border: 1.5px solid yellow;
+        margin-top: 5px;
+        width: 82%;
+        margin-bottom: 30px;
+    }
+
+    .container-social {
+        max-width: 86%;
+        margin: auto;
+    }
+
+    .container-social h3 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .container-social p {
+        font-size: 17px;
+    }
+
+    .headings p {
+        font-size: 20px;
+        font-weight: 600;
+        border: 1px solid #891212;
+        border-radius: 15px;
+    }
+
+    .pagein-content p {
+        color: #666F74;
+        font-size: 18px;
+        text-align: justify;
+    }
+}

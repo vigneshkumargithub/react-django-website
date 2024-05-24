@@ -1,0 +1,566 @@
+/* Ram Ls Frnd, [30/04/2024 10:13 AM]
+web-design css */
+
+.social-header-bg-service {
+    min-height: 60vh;
+    /* background-image:  url('C:\Users\prasa\OneDrive\Desktop\Phoenix Home\Home\public\Imagefile\2Bg 1.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden; 
+    margin: 0px !important;
+}
+
+/* @media (min-width: 1251px) and (max-width: 1450px) {
+
+    .web-text-center p {
+        font-size: 22px;
+    }
+} */
+
+.webdesign-underline {
+    border: 2px solid rgb(216, 214, 214);
+    margin-top: 5px;
+    width: 82%;
+    margin-bottom: 30px;
+}
+
+
+@media (min-width: 1251px) and (max-width: 1450px) {
+
+    .service-text-center p {
+        font-size: 22px !important;
+    }
+
+    .serviceaboutsection {
+        height: 81vh;
+        margin-top: 0px !important;
+        margin-bottom: 4%;
+    }
+
+    .web-text-center h1 {
+        font-size: 36px !important;
+        font-weight: 600;
+        color: #c11f1f;
+        text-align: center;
+    }
+
+    .web-text-center p {
+        font-size: 24px !important;
+    }
+
+}
+
+
+@media (min-width: 1125px) and (max-width: 1250px) {
+    .text-contents-service h1 {
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .text-content-service h4 {
+        color: white;
+        font-size: 20px !important;
+        letter-spacing: 2px;
+        text-align: start;
+    }
+
+    .serviceaboutsection-web-web {
+        margin-bottom: 5%;
+    }
+
+    .aboutsection-image-all-service {
+        margin-top: 4% !important;
+        margin-left: 0% !important;
+        margin-right: 5%;
+    }
+
+    .web-text-center {
+        margin-left: 3%;
+    }
+
+    .web-text-center h1 {
+        font-size: 24px !important;
+    }
+
+    .web-text-center p {
+        font-size: 20px !important;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1124px) {
+    .text-contents-service h1 {
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .text-content-service h4 {
+        color: white;
+        font-size: 20px !important;
+        letter-spacing: 2px;
+        text-align: start;
+    }
+
+    .serviceaboutsection-web-web {
+        margin-bottom: 5%;
+    }
+
+    .aboutsection-image-all-service {
+        margin-top: 4% !important;
+        margin-left: 0% !important;
+        margin-right: 5%;
+    }
+
+    .web-text-center {
+        margin-left: 3%;
+    }
+
+    .web-text-center h1 {
+        font-size: 24px !important;
+    }
+
+    .web-text-center p {
+        font-size: 17px !important;
+    }
+}
+
+
+@media (min-width: 748px) and (max-width: 991px) {
+    .main-content {
+        position: relative;
+        top: 10px !important;
+    }
+
+    .text-contents-service h1 {
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .text-content-service h4 {
+        color: white;
+        font-size: 20px !important;
+        letter-spacing: 2px;
+        text-align: start;
+    }
+
+    .serviceaboutsection-web-web {
+        margin-bottom: 5%;
+    }
+
+    .aboutsection-image-all-service {
+        margin-top: 4% !important;
+        margin-left: 0% !important;
+        margin-right: 5%;
+    }
+
+    .web-text-center {
+        margin-left: 3%;
+    }
+
+    .web-text-center h1 {
+        font-size: 24px !important;
+    }
+
+    .web-text-center p {
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width: 528px) and (max-width: 747px) {
+    .main-content {
+        position: relative;
+        top: 0px !important;
+    }
+
+    .text-contents-service h1 {
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .text-content-service h4 {
+        color: white;
+        font-size: 20px !important;
+        letter-spacing: 2px;
+        text-align: start;
+    }
+
+    .serviceaboutsection-web-web {
+        margin-bottom: 5%;
+    }
+
+    .aboutsection-image-all-service {
+        margin-top: 4% !important;
+        margin-left: 0% !important;
+        margin-right: 5%;
+    }
+
+/* Ram Ls Frnd, [30/04/2024 10:13 AM] */
+.web-text-center {
+        margin-left: 3%;
+        width: 95% !important;
+    }
+
+    .web-text-center h1 {
+        font-size: 24px !important;
+    }
+
+    .web-text-center p {
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 527px) {
+    .main-content {
+        position: relative;
+        top: 0px !important;
+    }
+
+    .left-content {
+        margin-left: 10% !important;
+    }
+
+    .aboutsection-image {
+        width: 66%;
+        margin-left: 10%;
+        padding-top: 12px;
+        margin-bottom: 5%;
+    }
+
+    .line-service {
+        margin-left: 20px ;
+    }
+
+    .text-contents-service h1 {
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .text-content-service h4 {
+        color: white;
+        font-size: 20px !important;
+        letter-spacing: 2px;
+        text-align: start;
+    }
+
+    .serviceaboutsection-web-web {
+        margin-bottom: 5%;
+    }
+
+    .aboutsection-image-all-service {
+        margin-top: 4% !important;
+        margin-left: 0% !important;
+        margin-right: 5%;
+        width: 100%;
+    }
+
+    .web-text-center {
+        margin-left: 3%;
+        width: 95% !important;
+    }
+
+    .web-text-center h1 {
+        font-size: 24px !important;
+    }
+
+    .web-text-center p {
+        font-size: 16px !important;
+        font-weight: 100;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 419px) {
+    .text-image-service {
+        text-align: end;
+        margin-top: 0px;
+        display: flow-root !important;
+    }
+
+    .main-content {
+        position: relative;
+        top: 0px !important;
+    }
+
+    .left-content {
+        margin-left: 7% !important;
+    }
+
+    .aboutsection-image {
+        width: 66%;
+        margin-left: 10%;
+        padding-top: 12px;
+        margin-bottom: 5%;
+    }
+
+    .line-service {
+        margin-left: 20px ;
+    }
+
+    .text-contents-service h1 {
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 19px;
+        margin-top: 15px;
+    }
+
+    .text-content-service h4 {
+        color: white;
+        font-size: 15px !important;
+        letter-spacing: 2px;
+        text-align: start;
+    }
+
+    .serviceaboutsection-web-web {
+        margin-bottom: 5%;
+    }
+
+    .aboutsection-image-all-service {
+        margin-top: 4% !important;
+        margin-left: 0% !important;
+        margin-right: 5%;
+        width: 100%;
+    }
+
+    .web-text-center {
+        margin-left: 3%;
+        width: 95% !important;
+    }
+
+    .web-text-center h1 {
+        font-size: 24px !important;
+    }
+
+    .web-text-center p {
+        font-size: 16px !important;
+        font-weight: 100;
+    }
+}
+
+
+.aboutsection-image:hover {
+    transform: scale(1.2) !important;
+}
+
+.serviceaboutsection-web-web{
+    max-height: 82vh;
+    /* One method */
+    /* background-size:contain;        
+    background-repeat: no-repeat; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.aboutsection {
+    background-color: white;
+}
+
+.aboutsection-image-all-service {
+    margin-top: 4% !important;
+    margin-left: 8% !important;
+}
+
+.web-text-center {
+    width:50%;
+    margin-top: 4%;
+    margin-right: 0%;
+    margin-left: 5%;
+    color: white;
+    overflow: hidden;
+    animation: aboutcontent 2s ease-in-out;
+}
+
+.aboutcontent {
+    height: 75vh;
+}
+
+.web-text-center h1 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #c11f1f;
+    text-align: center;
+}
+
+.web-text-center p {
+    font-size: 26px;
+    font-weight: 500 !important;
+    color: gray;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.image-container {
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card-service p {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icons {
+    font-size: 25px;
+}
+
+.card-service {
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card-service p {
+    text-align: center;
+}
+
+/* .middleimg {
+    border: 1px solid gray;
+} */
+
+/* Ram Ls Frnd, [30/04/2024 10:13 AM] */
+.pagein-content-service h3 {
+    position: relative;
+}
+
+.pagein-content-service h3 {
+    color: #891212;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pagein-content-service h3::after {
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    right: 0; /* Ensures the underline spans the width of the <h3> */
+    bottom: 0; 
+    margin: auto; /* Centers the underline horizontally */
+    width: 0%; /* Adjusts width based on content */
+    height: 5px; 
+    background-color: #891212; 
+    transition: width 1s; 
+    z-index: -1; 
+    border-radius: 15px;
+    bottom: -10px;
+}
+
+.pagein-content-service h3:hover::after {
+    width: 6%; /* Ensure the underline spans the full width on hover */
+    bottom: -10px;
+}
+
+.text-content-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align content to the start (top) */
+    align-items: start; /* Align content to the start (left) */
+}
+
+.left-content {
+    margin-left: 25%;
+}
+
+.line-service {
+    border: 1.5px solid yellow;
+    margin-top: 5px;
+    width: 88%;
+    margin-bottom: 30px;
+}
+
+.text-center h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.text-center h6 {
+    display: flex;
+    justify-content: start;
+}
+
+.text-contents-service h1{
+    animation: headercontent 2s ease-in-out;
+    color: white;
+    /* font-size: 30px; */
+  }
+  @keyframes headercontent{
+      0%{
+          opacity: 0;        
+          transform: translatex(-50%);
+      }
+  }
+
+  
+  .text-content-service h6 {
+    animation: headercontent 2s ease-in-out;
+  }
+  @keyframes headercontent{
+      0%{
+          opacity: 0;        
+          transform: translatex(50%);
+      }
+  }
+
+.main-content {
+    position: relative;
+    top: 105px;
+}
+
+.text-contents-service {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin: 5%; */
+}
+
+.text-contents-service h6 {
+    display: flex;
+}
+
+.text-center h6 {
+    display: flex;
+    justify-content: start;
+}
+
+.text-image-service {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-top: 40px;
+}
+
+.text-contents-service h1 {
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+} 
+
+.text-content-service h4 {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: start;
+}
+
+.text-content-service .line-service {
+    text-align: start;
+}
